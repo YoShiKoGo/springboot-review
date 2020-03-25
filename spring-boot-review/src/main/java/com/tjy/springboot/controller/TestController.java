@@ -42,6 +42,7 @@ public class TestController {
     @PostMapping("/login")
     public String LoginTest(String username,String password){
         System.out.println(username+":"+password);
+        System.out.println("success!");
         return "test";
     }
 
